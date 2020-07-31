@@ -1,0 +1,30 @@
+{
+  "name": "react-testing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.1.1",
+    "enzyme-adapter-react-16": "^1.0.4",
+    "fetch-mock": "^7.2.5",
+    "node-fetch": "^2.3.0",
+    "sinon": "^4.1.2"
+  },
+  "proxy": "http://localhost:8080/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
